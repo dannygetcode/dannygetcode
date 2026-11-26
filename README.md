@@ -1,46 +1,46 @@
-# Daniel Fernando Barragán Chía
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F2027,50:203A43,100:2C5364&height=200&section=header&text=Daniel%20Barrag%C3%A1n&fontColor=FFFFFF&fontSize=60&fontAlignY=38&desc=Data%20%7C%20AI%20%7C%20Software%20Engineering&descAlignY=58&descSize=20&animation=fadeIn" alt="Daniel Barragán" width="100%"/>
+</p>
 
-Estudio Ingeniería de Software en la Universidad Manuela Beltrán. Trabajo sobre todo en backend con Java y Spring Boot, en apps Android con Kotlin y en análisis de datos con Python. Me interesan los sistemas donde los datos llegan a una decisión: un pago que se aprueba, una alerta de calidad del aire, un informe con cifras que se pueden verificar.
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=3500&pause=900&color=2C9FAF&center=true&vCenter=true&width=620&lines=I+make+data+confess+(politely).;Trust+the+data.+Verify+the+AI.;Turning+surveys+into+probabilities.;Currently+forecasting+the+air+in+Boyac%C3%A1." alt="Typing intro"/>
+</p>
 
-[LinkedIn](https://www.linkedin.com/in/daniel-chia-data)
+### Hey, I'm Daniel
 
-## Proyectos destacados
+I study Software Engineering at Universidad Manuela Beltrán, and my favorite part of the job is when data has to answer a real question. Most of my work ends up in Python: cleaning the data, modeling it, and then checking whatever number the model hands back before anyone puts it in a slide.
 
-### Cupo: sistema para un parqueadero con cupo fijo
+### Lately I've been
 
-Tres repositorios que forman un solo sistema para un parqueadero de 6 carros y 1 moto. Cada usuario paga su mensualidad con un comprobante que se lee con OCR y el administrador revisa. La puerta se abre cuando la cámara reconoce la placa de un usuario al día. El panel muestra ocupación, ingresos y mora, junto con un pronóstico de cupos libres que viene con su intervalo de incertidumbre.
+- Forecasting PM10 air pollution in the Sogamoso-Nobsa industrial corridor for [my thesis](https://github.com/dannygetcode/Trabajo_de_Grado_Vigilancia_PM10_Sogamoso_Nobsa). There's no live sensor feed, so I built a simulator that replays a year of IDEAM data in under 30 minutes.
+- Building a [report engine](https://github.com/dannygetcode/Motor_Estadistico_Capa_Analitica_CIUMB) for UMB's research center. The LLM writes the prose and is not allowed anywhere near the math: every figure in the text is checked against the stats engine.
+- Running Logit models on DANE household surveys to see who gets a mortgage in Colombia, and then turning them into a [3D simulator](https://github.com/dannygetcode/simulador-hipotecario) so nobody has to read the regression table.
 
-![Arquitectura del sistema Cupo](assets/sistema-cupo.svg)
+### Things I believe
 
-| Repositorio | Qué es |
-|---|---|
-| [Back_End_Parqueadero_App](https://github.com/dannygetcode/Back_End_Parqueadero_App) | API REST en Spring Boot 3 con roles y JWT, esquema versionado con Flyway, pruebas de integración con Testcontainers y CI en GitHub Actions. Incluye el servicio de pronóstico en FastAPI y un simulador de 12 meses de datos. |
-| [Mobile_App_Parqueadero](https://github.com/dannygetcode/Mobile_App_Parqueadero) | App Android en Kotlin y Jetpack Compose: activación con código, ingreso con PIN o huella, pagos, puerta y actividad del usuario. |
-| [Front_Web_App_Parqueadero](https://github.com/dannygetcode/Front_Web_App_Parqueadero) | Panel del administrador en TypeScript: usuarios, revisión de pagos, puerta y analítica. |
+- A chart without a source is just a drawing.
+- If the model hits 0.99 accuracy on the first try, something leaked.
 
-### Motor de informes del CIUMB
+### Tools I reach for
 
-[Motor_Estadistico_Capa_Analitica_CIUMB](https://github.com/dannygetcode/Motor_Estadistico_Capa_Analitica_CIUMB): práctica empresarial en el Centro de Investigaciones de la UMB. Un servicio en Python recibe una pregunta en lenguaje natural y la convierte en un informe exportable a PDF, DOCX, XLSX, HTML o CSV. La IA interpreta la pregunta y redacta el texto, pero nunca escribe SQL ni calcula una cifra: los números salen del motor estadístico (pandas, SciPy, statsmodels, scikit-learn), y un validador comprueba que cada número del texto coincida con lo calculado.
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,sklearn,fastapi,flask,postgres,java,spring,kotlin,androidstudio,docker,githubactions,git,ts,azure&perline=7" alt="Tech stack"/>
+</p>
 
-### Vigilancia de PM10 en Sogamoso y Nobsa
+### My contributions, as a snack
 
-[Trabajo_de_Grado_Vigilancia_PM10_Sogamoso_Nobsa](https://github.com/dannygetcode/Trabajo_de_Grado_Vigilancia_PM10_Sogamoso_Nobsa): trabajo de grado. Es un sistema web que vigila el material particulado PM10 en el corredor industrial Sogamoso-Nobsa con los criterios de la Resolución 2254 de 2017. Valida las mediciones horarias, calcula promedios de 24 horas, propone los niveles de alerta, pronostica las siguientes 24 horas y publica una vista ciudadana. Lo componen siete servicios en tres contenedores, más un simulador que reproduce los datos del IDEAM con un reloj virtual.
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/dannygetcode/dannygetcode/output/github-snake-dark.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/dannygetcode/dannygetcode/output/github-snake.svg"/>
+  <img alt="Snake eating my contribution graph" src="https://raw.githubusercontent.com/dannygetcode/dannygetcode/output/github-snake.svg"/>
+</picture>
 
-### Mercado
+### Say hi
 
-[App_Mercado](https://github.com/dannygetcode/App_Mercado): app Android para llevar la cuenta del mercado contra un presupuesto. Escaneas el código de barras y el producto queda sumado. Funciona sin internet y guarda los datos en una base cifrada. Usa Kotlin, Jetpack Compose, Room con SQLCipher, CameraX y ML Kit.
+<a href="https://www.linkedin.com/in/daniel-chia-data">
+  <img src="https://img.shields.io/badge/LinkedIn-daniel--chia--data-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+</a>
 
-### Simulador del crédito hipotecario
-
-[simulador-hipotecario](https://github.com/dannygetcode/simulador-hipotecario): simulador web del modelo Logit de mi monografía en la UPTC sobre los determinantes del financiamiento de vivienda en Colombia (ECV del DANE, 2019 y 2024). Cambias las características de un hogar y una escena 3D muestra la probabilidad estimada de que tenga un crédito hipotecario.
-
-## Con qué trabajo
-
-| Área | Tecnologías |
-|---|---|
-| Backend | Java 17, Spring Boot 3, Spring Security con JWT, Spring Data JPA, Flyway |
-| Datos y analítica | Python, pandas, NumPy, SciPy, statsmodels, scikit-learn, FastAPI, Flask |
-| Móvil | Kotlin, Jetpack Compose, Material 3, Room, CameraX, ML Kit |
-| Web | TypeScript, JavaScript, HTML y CSS |
-| Bases de datos | PostgreSQL, SQL |
-| Infraestructura y calidad | Docker Compose, GitHub Actions, Testcontainers, JUnit, pytest |
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F2027,50:203A43,100:2C5364&height=100&section=footer" width="100%" alt=""/>
+</p>
