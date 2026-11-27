@@ -13,7 +13,7 @@
 
 ## About me
 
-I'm a software engineer student at Universidad Manuela Beltrán. Who builds data systems end to end. The schema, the pipeline, the statistics and the screen where someone makes a decision with the result. I care about the boring parts that keep a system alive after launch day: tests against real infrastructure, written-down decisions and numbers that can be traced back to their source.
+I'm a software engineer student at Universidad Manuela Beltrán. Who builds data systems end to end. The schema, the pipeline, the statistics and the screen where someone makes a decision with the result. I care about the boring parts that keep a system alive after launch day. Tests against real infrastructure, written-down decisions and numbers that can be traced back to their source.
 
 ## How I work
 
@@ -35,7 +35,7 @@ I'm a software engineer student at Universidad Manuela Beltrán. Who builds data
     </td>
     <td width="50%" valign="top">
       <h3>Report engine with verified figures</h3>
-      <p>Built during my internship at UMB's research center. It turns a question in plain language into a PDF, DOCX, XLSX, HTML or CSV report. Behind it sit an incremental ETL, a data warehouse, a SQL compiler restricted to a whitelist and a statistics engine. The AI layer is optional: if it goes down, the report still ships with a template text.</p>
+      <p>Built during my internship at UMB's research center. It turns a question in plain language into a PDF, DOCX, XLSX, HTML or CSV report. Behind it sit an incremental ETL, a data warehouse, a SQL compiler restricted to a whitelist and a statistics engine. The AI layer is optional. If it goes down, the report still ships with a template text.</p>
       <p><code>Python</code> <code>pandas</code> <code>SciPy</code> <code>statsmodels</code> <code>scikit-learn</code> <code>Docker</code></p>
       <p><a href="https://github.com/dannygetcode/Motor_Estadistico_Capa_Analitica_CIUMB/tree/main/src/ciumb_analitica/motor">Statistics engine</a> · <a href="https://github.com/dannygetcode/Motor_Estadistico_Capa_Analitica_CIUMB">Repository</a></p>
     </td>
