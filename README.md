@@ -13,7 +13,7 @@
 
 ## About me
 
-I'm a software engineer student at Universidad Manuela Beltrán. Who builds data systems end to end. The schema, the pipeline, the statistics and the screen where someone makes a decision with the result. I care about the boring parts that keep a system alive after launch day. Tests against real infrastructure, written-down decisions and numbers that can be traced back to their source.
+I'm a software engineer student at Universidad Manuela Beltrán and Economist from Universidad Pedagógica y Tecnológica de Colombia . Who builds data systems end to end. The schema, the pipeline, the statistics and the screen where someone makes a decision with the result. I care about the boring parts that keep a system alive after launch day. Tests against real infrastructure, written-down decisions and numbers that can be traced back to their source.
 
 ## How I work
 
